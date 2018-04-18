@@ -1,0 +1,164 @@
+body{ font-size:0.6em; font-family: "Trebuchet MS",verdana,arial,sans-serif;}
+#menu{ font-size:0.9em;
+		margin: 0px auto;
+		height: 40px ;
+		width:950px;
+		text-align: center;
+		background-color: #88b6e9;
+		-moz-border-radius: 0px 0px 20px 20px ;
+		-webkit-border-radius: 0px 0px 20px 20px ;
+		border-radius: 0px 0px 20px 20px ;
+	}
+#topbarcontenu{ float: right; color: #fff; padding-right: 15px;font-family: "Trebuchet MS",verdana,arial,sans-serif; }
+#infoConnecte{ font-size:0.9em; margin: 5px auto; padding-left: 15px; height: 20px ;
+				width:950px; text-align: left; font-family: "Trebuchet MS",verdana,arial,sans-serif;}	
+.entete{ margin: 15px auto; width : 950px;}
+.textEntete{ font-family: "Trebuchet MS",verdana,arial,sans-serif; margin-left: 150px;font-size:2em; font-weight:bold; margin-top:35px}
+table.gridcde {
+	font-family: "Trebuchet MS",verdana,arial,sans-serif;
+	font-size:0.9em;
+	margin: 15px auto;
+	border:1px solid white;
+	text-align: center;
+	border-collapse: collapse;
+	width: 950px;
+	heigth: auto;
+}
+table.gridcde th { font-size:1em;
+	padding: 8px;
+	border:1px solid white;
+	text-align: center;
+	color: #ffffff;
+	background-color: #307dd3; /*#82C27C; #1D69A3;*/
+}
+
+table.gridcde td {	
+	border:1px solid white;
+	padding: 3px;
+	text-align: center;
+	background-color: #F6F6F6;
+}
+.gridcde fieldset
+{   
+	background-color:#CCC;
+	padding:16px;
+	border:2px solid green;
+    -moz-border-radius:8px;
+    -webkit-border-radius:8px;	
+    border-radius:8px;	
+	width: 650px;
+	margin-left: 100px;
+ }
+.gridcde legend
+{ color : red;
+  font-weight : bold;
+  margin-top:10px;
+  margin-bottom:10px;
+  margin-left:30px;
+}
+/***** css formulaire***********/
+ input, select{
+	height: 25px ;
+	width:250px;
+	border: 1px solid #77BACE;
+	-moz-border-radius: 4px;
+	-webkit-border-radius: 4px;
+	border-radius: 4px;
+	}
+ textarea{
+border: 1px solid #77BACE;
+-moz-border-radius: 4px;
+-webkit-border-radius: 4px;
+border-radius: 4px;
+}
+input:focus, textarea:focus, select:focus {
+	border: 1px solid #77BACE;
+	-webkit-box-shadow: inset 0 2px 2px #ccc, 0 0 10px #ADDCE6;
+	-moz-box-shadow: inset 0 2px 2px #ccc, 0 0 10px #ADDCE6;
+	box-shadow: inset 0 2px 2px #ccc, 0 0 10px #ADDCE6;
+	color: #666666;
+	}
+	
+.icheckbox_polaris{
+  display: inline-block;
+  *display: inline;
+  vertical-align: middle;
+  margin: 0;
+  padding: 0;
+  width: 18px;
+  height: 18px;
+  background: rgba(255, 255, 255, 0.7) url(../images/polaris.png) no-repeat;
+  border: none;
+  cursor: pointer;
+}
+.icheckbox_polaris {
+  background-position: 0 0;
+}
+.icheckbox_polaris.hover {
+  background-position: -20px 0;
+}
+.icheckbox_polaris.checked {
+  background-position: -40px 0;
+}
+.icheckbox_polaris.disabled {
+  background-position: -60px 0;
+  cursor: default;
+}
+
+.icheckbox_minimal-green{
+  display: inline-block;
+  *display: inline;
+  vertical-align: middle;
+  margin: 0;
+  padding: 0;
+  width: 18px;
+  height: 18px;
+  background: rgba(255, 255, 255, 0.7) url(../images/icheck_green.png) no-repeat;
+  border: none;
+  cursor: pointer;
+}
+.icheckbox_minimal-green {
+  background-position: 0 0;
+}
+.icheckbox_minimal-green.hover {
+  background-position: -20px 0;
+}
+.icheckbox_minimal-green.checked {
+  background-position: -40px 0;
+}
+.icheckbox_minimal-green.disabled {
+  background-position: -60px 0;
+  cursor: default;
+}
+/***** fin css formulaire***********/
+.btnValider, .reset{ height: 30px ;
+	width:175px;
+	padding: 5px 30px 5px 30px;
+	background-color: #1D69A3;
+	background-image: none;
+	-webkit-box-shadow: none;
+	-moz-box-shadow: none;
+	border-radius: 5px;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	font-size:15px;
+	color:#ffffff;
+	border:1px solid #ffffff;
+	}
+.reset{ background-color: #B9B9B9;}	
+input.btnValider:hover{
+	border: 1px solid #77BACE;
+	padding: 5px 30px 5px 30px;
+	background-color: #76A231;
+	background-image: none;
+	-webkit-box-shadow: none;
+	-moz-box-shadow: none;
+	border-radius: 5px;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	font-size:15px;
+	color:#ffffff;
+	border:1px solid #ffffff;
+	}
+input.btnValider:focus{color:#ffffff;}
+sup, i{ color: red;}

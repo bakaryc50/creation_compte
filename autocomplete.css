@@ -1,0 +1,22 @@
+#personnel-list{
+	float: right;
+	list-style: none;
+	margin-top: -3px; 
+	padding: 0;
+	width: 190px; 
+	position: relative;
+}
+#personnel-list li{
+	padding: 10px; 
+	background: #f0f0f0;
+	border-bottom: #bbb9b9 1px solid;
+}
+#personnel-list li:hover{
+	background: #c0ce39;
+	cursor: pointer;
+}
+#tab7_responsable_hierarchique_champ{
+	padding: 10px;
+	border: #a8d4b1 1px solid;
+	border-radius: 4px;
+}

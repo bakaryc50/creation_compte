@@ -1,0 +1,16 @@
+.hover{ cursor: pointer;
+background-color:#3C8DBC;}
+.modal-header { padding:9px 15px;
+border-bottom:1px solid #eee; 
+background-color:#367FA9;
+color: #ffffff;
+-webkit-border-top-left-radius: 5px;
+-webkit-border-top-right-radius: 5px;
+-moz-border-radius-topleft: 5px;
+-moz-border-radius-topright: 5px;
+border-top-left-radius: 5px;
+border-top-right-radius: 5px;
+}
+.bootstrap-dialog .modal-header.bootstrap-dialog-draggable {
+	cursor: move;
+}
